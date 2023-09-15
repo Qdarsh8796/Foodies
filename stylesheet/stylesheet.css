@@ -7,16 +7,21 @@
     border-bottom:2px solid #F43127;
 }
 #navbar img{
-    width: 150px;
+    width: 130px;
 }
-h1 .display{
-    line-height: 1px;
+h1 span{
+    text-decoration: underline;
+    text-decoration-color: #FDC913;
+    color: #F43127;
 }
 .img1{
-    width: 130px;
-    margin-right: -50px;
+    width: 120px;
+    margin-right: -40px;
+    margin-left: -20px;
+    margin-bottom: 20px;
 }
 .img2{
-    width: 82px;
+    width: 80px;
+    margin-bottom: 20px;
 }
 
