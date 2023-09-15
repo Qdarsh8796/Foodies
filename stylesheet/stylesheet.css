@@ -1,0 +1,22 @@
+*{
+    background-color: #FFE7DC;
+} 
+#navbar{
+    font-family: 'Bauhaus 93', sans-serif;
+    border-bottom-color: #F43127;
+    border-bottom:2px solid #F43127;
+}
+#navbar img{
+    width: 150px;
+}
+h1 .display{
+    line-height: 1px;
+}
+.img1{
+    width: 130px;
+    margin-right: -50px;
+}
+.img2{
+    width: 82px;
+}
+
