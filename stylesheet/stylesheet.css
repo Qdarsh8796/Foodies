@@ -9,19 +9,71 @@
 #navbar img{
     width: 130px;
 }
-h1 span{
+#paragraph{
+    font-size: 26px;
+    font-family: 'Bauhaus Modern', sans-serif;
+}
+#heading{
+    font-family: 'Bauhaus 93', sans-serif;
+    line-height: 86%;
+}
+#headline{
+    line-height: 20%;
+}
+span{
     text-decoration: underline;
+    text-underline-offset: 8%;
     text-decoration-color: #FDC913;
     color: #F43127;
 }
 .img1{
     width: 120px;
     margin-right: -40px;
+    margin-top: 11px;
     margin-left: -20px;
-    margin-bottom: 20px;
 }
 .img2{
     width: 80px;
-    margin-bottom: 20px;
 }
-
+#button{
+    background-color: #F43127;
+    border: none;
+}
+#button span{
+    background-color: #F43127;
+}
+#img3{
+    margin-top: -170px;
+    margin-left: -160px;    
+}
+#img4{
+    margin-top: -50px;
+    margin-right: -20px;
+}
+#img5{
+    margin-left: -110px;
+}
+#img6{
+    margin-bottom: -85px;
+}
+#img7{
+    background-color: #FFEFE9;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+#img8{
+    background-color: #FFEFE9;
+    padding: 9%;
+    margin-bottom: -23px;
+}
+#img9{
+    background-color: #FFEFE9;
+    padding: 3%;
+    margin-bottom: -14px;
+}
+#cards{
+    border-radius: 20px;
+}
+#card{
+    background-color: #FFEFE9;
+}

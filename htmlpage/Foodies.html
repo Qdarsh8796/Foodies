@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/stylesheet/stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bauhaus+93">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bauhaus-modern" rel="stylesheet">
     <title>Foodies</title>
 </head>
 
@@ -43,30 +44,86 @@
                 </nav>
             </div>
         </div>
-        <div class="container-fuild container-fuild-sm container-md container-lg container-xl mt-5">
-            <div class="row border ms-lg-2 me-lg-2 ms-md-1 me-md-1">
-                <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 border">
-                    <div class="h1 display-4 fw-bold">
+        <div class="container-fuild container-fuild-sm container-md container-lg container-xl mt-5 border">
+            <div class="row ms-lg-2 me-lg-2 ms-md-1 me-md-1 border">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <img class="w-25 p-2 d-none d-lg-block" src="/Images/grass.png" alt="Grass" id="img5">
+                    <div class="h1 display-4 fw-bold" id="heading">
                         Enjoy <span>Delicious</span>
-                        <span>Food <img class="img1" src="/Images/pizzaslice.png" alt="Pizza"><img class="img2"
-                                src="/Images/burger2.png" alt="Burger"></span>In Your
-                        Healthy Life
+                        <div id="headline">
+                            <span>Food <img class="img1" src="/Images/pizzaslice.png" alt="Pizza"><img class="img2"
+                                    src="/Images/burger2.png" alt="Burger"></span>In Your<br>
+                            Healthy Life
+                        </div>
                     </div>
-                    <div class="h5 mt-3">
-                        There are many variations of passages
-                        of Lorem lpsum avalible, but the
-                        majority have suffered alteration in
+                    <div class="h6 mt-5" id="paragraph">
+                        There are many variations of passages <br>
+                        of Lorem lpsum avalible, but the <br>
+                        majority have suffered alteration in <br>
                         some form, by injected humour
                     </div>
-                    <button class="p-2 ps-3 pe-4 rounded-5 border-0">Order Now<span class="ms-3"><i class="bi bi-chevron-right"></i></span></button>
-                    <!-- <h1 class="display-4 fw-bold">Enjoy <span>Delicious</span></h1>
-                    <h1 class="display-4 fw-bold"><span>Food</span><span><img class="img1" src="/Images/pizzaslice.png"
-                        alt="Pizza"><img class="img2" src="/Images/burger2.png" alt="Burger"></span>In Your
-                    </h1>
-                    <h1 class="display-4 fw-bold">Healthy Life</h1> -->
+                    <a class="text-decoration-none" href="#" id="ordernow">
+                        <button class="d-flex p-2 pt-3 m-2 mt-4 rounded-3" id="button">
+                            <h6 class="bg-transparent text-white ms-3">Order now</h6>
+                            <i class="bi bi-chevron-right text-white  bg-transparent ms-3"></i>
+                        </button>
+                    </a>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-
+                <div class="col-lg-6 col-md-10 col-sm-12">
+                    <img class="w-25 float-end" src="/Images/chili.png" alt="Chili" id="img6">
+                    <img class="w-100 rounded-pill p-3 mb-0" src="/Images/slicepizza.png" alt="Pizza">
+                    <img class="w-50 p-5 bg-transparent" src="/Images/coriander.png" alt="Coriander" id="img3">
+                    <img class="w-25 p-4 float-end" src="/Images/tomato.png" alt="Tomato" id="img4">
+                </div>
+            </div>
+            <div class="row ms-lg-2 me-lg-2 ms-md-1 me-md-1 mt-5 rounded shadow" id="cards">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="card">
+                    <div class="text-center" id="card">
+                        <img class="w-50 p-3 mt-5" src="/Images/sushi.png" alt="Sushi"  id="img7">
+                        <h3 id="card">Tasty Sushi</h3>
+                        <p id="card">
+                            There are many variations of <br>
+                            passage of available, but the <br>
+                            majority have suffer
+                        </p>
+                        <a class="text-decoration-none" href="#">
+                            <button class="rounded-3 shadow" id="button">
+                                <h6 class="bg-transparent text-white ms-3 me-3 pt-2">See Menu</h6>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="card">
+                    <div class="text-center" id="card">
+                        <img class="w-50 mt-5" src="/Images/friesbig.png" alt="French Fries" id="img8">
+                        <h3 id="card">French Fries</h3>
+                        <p id="card">
+                            There are many variations of <br>
+                            passage of available, but the <br>
+                            majority have suffer
+                        </p>
+                        <a class="text-decoration-none" href="#">
+                            <button class="rounded-3 shadow" id="button">
+                                <h6 class="bg-transparent text-white ms-3 me-3 pt-2">See Menu</h6>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="card">
+                    <div class="text-center" id="card">
+                        <img class="w-50 mt-5" src="/Images/barbecue.png" alt="Hot Barbecue" id="img9">
+                        <h3 id="card">Hot Barbecue</h3>
+                        <p id="card">
+                            There are many variations of <br>
+                            passage of available, but the <br>
+                            majority have suffer
+                        </p>
+                        <a class="text-decoration-none" href="#">
+                            <button class="rounded-3 shadow" id="button">
+                                <h6 class="bg-transparent text-white ms-3 me-3 pt-2">See Menu</h6>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
