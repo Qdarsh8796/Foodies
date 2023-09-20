@@ -1,20 +1,24 @@
+@font-face{
+    src: url('/fontfamily/BauhausRegular.ttf');
+    font-family: 'BauhausRegular';
+}
 *{
     background-color: #FFE7DC;
 } 
 #navbar{
-    font-family: 'Bauhaus 93', sans-serif;
+    font-family: BauhausRegular;
+    font-size: large;
     border-bottom-color: #F43127;
-    border-bottom:2px solid #F43127;
+    border-bottom:3px solid #F43127; 
 }
 #navbar img{
     width: 130px;
 }
 #paragraph{
-    font-size: 26px;
-    font-family: 'Bauhaus Modern', sans-serif;
+    font-family: 'inder', sans-serif;
 }
 #heading{
-    font-family: 'Bauhaus 93', sans-serif;
+    font-family: 'inter', sans-serif;
     line-height: 86%;
 }
 #headline{
@@ -35,13 +39,6 @@ span{
 .img2{
     width: 80px;
 }
-#button{
-    background-color: #F43127;
-    border: none;
-}
-#button span{
-    background-color: #F43127;
-}
 #img3{
     margin-top: -170px;
     margin-left: -160px;    
@@ -53,7 +50,7 @@ span{
 #img5{
     margin-left: -110px;
 }
-#img6{
+#img6{  
     margin-bottom: -85px;
 }
 #img7{
@@ -71,9 +68,94 @@ span{
     padding: 3%;
     margin-bottom: -14px;
 }
-#cards{
-    border-radius: 20px;
+#img10{
+        margin-top: -120px;
+        margin-right: -100px;
 }
+#img11{
+    transform: rotate(90deg);
+    margin-bottom: -150px;
+}
+#img13{
+    margin-top: -110px;
+}
+#img14{
+    transform: rotate(180deg);
+    margin-top: -60px;
+}
+#button{
+    background-color: #F43127;
+    font-family: 'inter', sans-serif;
+    border: none;
+}
+#button span{
+    background-color: #F43127;
+}
+
 #card{
     background-color: #FFEFE9;
+    font-family: 'inder', sans-serif;
+    font-size: large;
+}
+#cards{
+    background-color: #FFEFE9;
+    font-family: BauhausRegular;
+}
+#colname{
+    font-family: 'inter', sans-serif;
+}
+#justifypara{
+    text-align: left;
+}
+#content{
+    font-family: 'inder', sans-serif; 
+}
+#itemhead{
+    font-family: 'inter', sans-serif;
+}
+#paragraph{
+    font-family: 'inder', sans-serif; 
+    color: #80736E;
+}
+#sandwich{
+    font-family: BauhausRegular;
+    background-color: #F6F1E7;
+}
+#cardcontent{
+    font-family: 'inder', sans-serif; 
+    background-color: #F6F1E7;
+}
+#card2{
+    border-radius: 25px;
+    background-color: #F6F1E7;
+}
+.card{
+    border-radius: 50px;
+    margin-bottom: -800px;
+}
+#chefcontent{
+    font-family: 'inder', sans-serif; 
+}
+footer{
+    background-color: #F43127;
+}
+#footer{
+    background-color: #F43127;
+    color: #FFFFFF;
+    font-family: 'inter', sans-serif; 
+}
+#footeritem{
+    color: #FFFFFF;
+    background-color: #F43127;
+    font-family: 'inter', sans-serif; 
+    border-bottom:3px solid #FFFFFF; 
+}
+
+
+#header{
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #F43127;
+    color: #FFFFFF;
+    font-family: 'inter', sans-serif; 
 }
