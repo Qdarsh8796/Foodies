@@ -1,0 +1,27 @@
+@font-face{
+    src: url('/fontfamily/BauhausRegular.ttf');
+    font-family: 'BauhausRegular';
+}
+*{
+    background-color: #FFE7DC;
+} 
+#navbar{
+    font-family: BauhausRegular;
+    font-size: large;
+    border-bottom-color: #F43127;
+    border-bottom:3px solid #F43127; 
+    margin-bottom: -9px;
+}
+#navbar img{
+    width: 130px;
+}
+#header{
+    margin-right: 1px;
+    background-color: #F43127;
+    color: #FFFFFF;
+    font-family: 'inter', sans-serif; 
+}
+#img1{
+    margin-bottom: -90px;
+    rotate: 180deg;
+}

@@ -83,6 +83,11 @@ span{
     transform: rotate(180deg);
     margin-top: -60px;
 }
+/* #img15{
+    rotate: 180deg;
+    margin-top: -180px;
+    margin-right: -200px;
+} */
 #button{
     background-color: #F43127;
     font-family: 'inter', sans-serif;
