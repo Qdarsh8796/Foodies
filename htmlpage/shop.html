@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet/shop.css">
-    <link rel="icon" type="image/x-icon" href="/Images/ ">
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     <link href="https://db.onlinewebfonts.com/c/0801c08e5412f54e4b4e9ad146d83a12?family=Ink+Free" rel="stylesheet">
     <title>Foodies</title>
 </head>
+
 <body>
     <div class="container-fuild">
         <div class="row ms-1 me-1 justify-content-center">
@@ -30,18 +31,21 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <div class="navbar-nav me-auto ms-auto">
-                                <a class="text-decoration-none text-dark h5 fw-bolder" href="">Home</a>
-                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4" href="">About</a>
-                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4" href="">Shop</a>
+                                <a class="text-decoration-none text-dark h5 fw-bolder" href="Foodies.html">Home</a>
                                 <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4"
-                                    href="">Contact</a>
+                                    href="aboutus.html">About</a>
+                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4"
+                                    href="shop.html">Shop</a>
+                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4"
+                                    href="contactus.html">Contact</a>
                             </div>
                             <div class="navbar-nav">
                                 <a class="text-dark" href="#"><i class="bi bi-cart2"></i></a>
                                 <a class="text-dark ms-lg-4 ms-md-3 fw-bolder" href="#"><i class="bi bi-search"></i></a>
                                 <a class="text-dark ms-lg-4 ms-md-3 fw-bolder" href="#"><i
                                         class="bi bi-grid-3x3-gap-fill"></i></a>
-                                <a class="text-dark text-decoration-none ms-lg-4 ms-md-3 fw-bold" href="#">Sign up</a>
+                                <a class="text-dark text-decoration-none ms-lg-4 ms-md-3 fw-bold" href="#"
+                                    data-toggle="modal" data-target="#exampleModalCenter">Sign up</a>
                             </div>
                         </div>
                     </div>
@@ -60,7 +64,141 @@
                     id="header">Choose your items</h1>
             </div>
         </div>
-        
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="w-75">
+                        <div class="d-flex ms-5">
+                            <input type="text" class="form-control border-light rounded-3 shadow"
+                                placeholder="Search your itmes">
+                        </div>
+                        <div class="ms-lg-5 ms-sm-0 mt-5 border">
+                            <h5 class="ms-4">Categories</h5>
+                            <div class="d-flex justify-conetnt-between mt-3">
+                                <div class="d-flex p-1 pt-0 me-5">
+                                    <img class="w-50 p-3 pt-0" src="/Images/ramen.png" alt="Ramen">
+                                    <p class="mt-1">Ramen</p>
+                                </div>
+                                <div class="ms-5">
+                                    <p class="ms-5">(5)</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-conetnt-between">
+                                <div class="d-flex p-1 pt-0 me-5">
+                                    <img class="w-50 p-3 pt-0" src="/Images/pizza 1.png" alt="Ramen">
+                                    <p class="mt-1 me-3">Pizza</p>
+                                </div>
+                                <div class="ms-5">
+                                    <p class="ms-5">(5)</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-conetnt-between">
+                                <div class="d-flex p-1 pt-0 me-5">
+                                    <img class="w-50 p-3 pt-0" src="/Images/burger1.png" alt="Ramen">
+                                    <p class="mt-1 pe-2">Burger</p>
+                                </div>
+                                <div class="ms-5">
+                                    <p class="ms-5">(5)</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-conetnt-between">
+                                <div class="d-flex p-3 ps-2 pt-0 w-50">
+                                    <img class="w-25 p-1 pt-0 me-2" src="/Images/friesbig.png" alt="Ramen">
+                                    <p class="mt-1">French Fries</p>
+                                </div>
+                                <div class="ms-5">
+                                    <p class="ms-4">(5)</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-conetnt-between">
+                                <div class="d-flex p-1 pt-0 me-5">
+                                    <img class="w-50 p-3 pt-0" src="/Images/fastfood.png" alt="Ramen">
+                                    <p class="mt-1">Fast food</p>
+                                </div>
+                                <div class="ms-5">
+                                    <p class="ms-5">(5)</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-conetnt-between">
+                                <div class="d-flex p-1 pt-0 me-5">
+                                    <img class="w-50 p-4 pt-0" src="/Images/drink.png" alt="Ramen">
+                                    <p class="mt-1">Ramen</p>
+                                </div>
+                                <div class="ms-5">
+                                    <p class="ms-5">(5)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="dropdown">
+                                <button class="btn btn-light rounded-3 dropdown-toggle float-end p-2 shadow me-5"
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span class="text-decoration-none me-2 bg-transparent text-dark fw-normal">Default
+                                        sorting</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li>
+                                        <a class="dropdown-item bg-light" href="#"><i
+                                                class="bi bi-people bg-transparent me-4 h4"></i><span
+                                                class="text-decoration-none me-5 fw-bold bg-transparent text-dark fw-bold">2
+                                                People</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item bg-light" href="#"><i
+                                                class="bi bi-people bg-transparent me-4 h4"></i><span
+                                                class="text-decoration-none me-5 fw-bold bg-transparent text-dark fw-bold">6
+                                                People</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item bg-light" href="#"><i
+                                                class="bi bi-people bg-transparent me-4 h4"></i><span
+                                                class="text-decoration-none me-5 fw-bold bg-transparent text-dark fw-bold">8
+                                                People</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="bi bi-heart float-end"></i>
+                                    <img class="w-100 p-4 pt-0 pb-2" src="/Images/pizza.png" alt="Pizza">
+                                    <h3 class="text-center">Margherita Pizza</h3>
+                                    <p class="text-center">Margherita Pizza features a thin crust topped with
+                                        three basic ingredients: fresh tomato sauce,
+                                        mozzarella cheese, and fresh basil leaves.</p>
+                                    <div class="d-flex">
+                                        <h6 class="fw-bolder" id="card2"><span class="text-decoration-none fw-bold"
+                                                id="card2"><i class="bi bi-currency-dollar fw-bold"
+                                                    id="card2"></i>17.00</span></h6>
+                                        <span class="ms-5"><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                                class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></span>
+                                        <button class="rounded-3 shadow" id="button">Add to Card</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer class="mt-5">
             <div class="row comtainer-fuild ms-2 me-2 mt-5" id="footer">
                 <div class="col-10 offset-1" id="footer">

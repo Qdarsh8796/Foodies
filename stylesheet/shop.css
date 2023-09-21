@@ -42,6 +42,11 @@
     margin-bottom: -280px;
     rotate: 180deg;
 }
+#button{
+    background-color: #F43127;
+    font-family: 'inter', sans-serif;
+    border: none;
+}
 footer{
     background-color: #F43127;
 }
