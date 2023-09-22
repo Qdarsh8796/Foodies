@@ -155,6 +155,10 @@ footer{
     font-family: 'inter', sans-serif; 
     border-bottom:3px solid #FFFFFF; 
 }
+#footerimg{
+    margin-top: -82px;
+    margin-right: -20px;
+}
 
 
     
