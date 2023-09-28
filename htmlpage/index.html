@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/stylesheet/stylesheet.css">
     <link rel="icon" type="image/x-icon" href="/Images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/bauhaus-93" rel="stylesheet">
@@ -30,9 +31,11 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <div class="navbar-nav me-auto ms-auto">
-                                <a class="text-decoration-none text-dark h5 fw-bolder" href="Foodies.html">Home</a>
-                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4" href="aboutus.html">About</a>
-                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4" href="shop.html">Shop</a>
+                                <a class="text-decoration-none text-dark h5 fw-bolder" href="index.html">Home</a>
+                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4"
+                                    href="aboutus.html">About</a>
+                                <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4"
+                                    href="shop.html">Shop</a>
                                 <a class="text-decoration-none text-dark fw-bolder h5 ms-lg-5 ms-md-4"
                                     href="contactus.html">Contact</a>
                             </div>
@@ -41,7 +44,28 @@
                                 <a class="text-dark ms-lg-4 ms-md-3" href="#"><i class="bi bi-search"></i></a>
                                 <a class="text-dark ms-lg-4 ms-md-3" href="#"><i
                                         class="bi bi-grid-3x3-gap-fill"></i></a>
-                                <a class="text-dark text-decoration-none ms-lg-4 ms-md-3 fw-bold" href="#">Sign up</a>
+                                <a class="text-dark text-decoration-none ms-lg-4 ms-md-3 fw-bold" data-toggle="modal"
+                                    data-target="#myModal" href="#">Sign up</a>
+                                <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">
+                                                    &times;
+                                                </button>
+                                                <h4 class="modal-title">Modal Header</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Some text in the modal.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -67,9 +91,9 @@
                         some form, by injected humour
                     </div>
                     <a class="text-decoration-none" href="shop.html" id="ordernow">
-                        <button class="d-flex p-2 pt-3 m-2 mt-4 rounded-3" id="button">
+                        <button class="d-flex p-2 pt-3 m-2 mt-4" id="button">
                             <h6 class="bg-transparent text-white ms-3">Order Now</h6>
-                            <i class="bi bi-chevron-right text-white  bg-transparent ms-3"></i>
+                            <i class="bi bi-chevron-right text-white  bg-transparent ms-3 me-4"></i>
                         </button>
                     </a>
                 </div>
@@ -81,7 +105,7 @@
                 </div>
             </div>
             <div class="row ms-lg-4 me-lg-4 ms-md-2 me-md-2 mt-5 shadow" id="cards">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="card">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 cards" id="card">
                     <div class="text-center" id="card">
                         <img class="w-50 p-3 mt-5" src="/Images/sushi.png" alt="Sushi" id="img7">
                         <h3 id="cards">Tasty Sushi</h3>
@@ -113,7 +137,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" id="card">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 cards" id="card">
                     <div class="text-center" id="card">
                         <img class="w-50 mt-5" src="/Images/barbecue.png" alt="Hot Barbecue" id="img9">
                         <h3 id="cards">Hot Barbecue</h3>
@@ -257,7 +281,7 @@
                 <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mt=5">
                     <h1 class="fw-bold mt-5" id="itemhead">Customer <span class="text-decoration-none">Feedback</span>
                     </h1>
-                    <h4 class="text-justify" id="chefcontent">Been a life saver for keeping our sanity during
+                    <h4 style="text-align: justify;" id="chefcontent">Been a life saver for keeping our sanity during
                         the pandemic, although they could improve
                         some of their ui and how they handle specials
                         as it often is unclear how to use them or
@@ -276,8 +300,7 @@
                     <h1 class="mt-3 fw-bold pb-2" id="footeritem">Subscribe Newsletter</h1>
                 </div>
                 <div class="col-2 offset-10 d-sm-none d-lg-block d-md-none float-end bg-transparent">
-                    <img class="w-50 float-end bg-transparent" src="/Images/grass2.png" alt="Grass"
-                        id="footerimg">
+                    <img class="w-50 float-end bg-transparent" src="/Images/grass2.png" alt="Grass" id="footerimg">
                 </div>
             </div>
             <div class="row ms-lg-5 me-lg-2" id="footer">
@@ -367,6 +390,7 @@
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

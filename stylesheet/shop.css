@@ -46,6 +46,38 @@
     background-color: #F43127;
     font-family: 'inter', sans-serif;
     border: none;
+    font-size: 12px;
+}
+#cards{
+    border-color: #FFE7DC;
+}
+#cards:hover{
+    border-color: #F43127;
+    border-width: 3px;
+    transition: 1s;
+}
+#categories{
+    background-color: #F6F1E7;
+}
+#categories p{
+    background-color: #F6F1E7;
+    font-size: 14px;
+}
+#color{
+    color: #F43127;
+    background-color: #F6F1E7;
+}
+#freeoffer{
+    background-color: #341E13;
+    border-radius: 14px;
+}
+#freeoffer:hover{
+    border-color: #F43127;
+    transition: 2s;
+}
+#free{
+    background-color: #341E13;
+    font-family: 'inter', sans-serif;
 }
 footer{
     background-color: #F43127;

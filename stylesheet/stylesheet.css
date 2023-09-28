@@ -83,15 +83,12 @@ span{
     transform: rotate(180deg);
     margin-top: -60px;
 }
-/* #img15{
-    rotate: 180deg;
-    margin-top: -180px;
-    margin-right: -200px;
-} */
+
 #button{
     background-color: #F43127;
     font-family: 'inter', sans-serif;
     border: none;
+    border-radius: 14px;
 }
 #button span{
     background-color: #F43127;
@@ -120,7 +117,6 @@ span{
 }
 #paragraph{
     font-family: 'inder', sans-serif; 
-    color: #80736E;
 }
 #sandwich{
     font-family: BauhausRegular;
@@ -129,6 +125,12 @@ span{
 #cardcontent{
     font-family: 'inder', sans-serif; 
     background-color: #F6F1E7;
+}
+#cards{
+    border-radius: 17px;
+}
+.cards{
+    border-radius: 17px;
 }
 #card2{
     border-radius: 25px;
