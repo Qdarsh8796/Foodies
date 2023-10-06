@@ -58,6 +58,7 @@ footer{
     background-color: #F43127;
     color: #FFFFFF;
     font-family: 'inter', sans-serif; 
+    margin: auto;
 }
 #footeritem{
     color: #FFFFFF;
@@ -68,4 +69,8 @@ footer{
 #footerimg{
     margin-top: -82px;
     margin-right: -20px;
+}
+#form{
+    border-radius: 10px;
+    background-color: #FFE7DC;
 }
